@@ -1,0 +1,4 @@
+flowchart LR
+    U["Người dùng"] -->|"1 · Thao tác"| A["Ứng dụng<br/>(Client)"]
+    A -->|"2 · Gọi API"| S["Service<br/>xử lý nghiệp vụ"]
+    S -->|"3 · Đọc / ghi"| D[("Database")]

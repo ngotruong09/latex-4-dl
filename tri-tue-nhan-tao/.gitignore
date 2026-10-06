@@ -1,0 +1,11 @@
+# File phụ của LaTeX (build.py tự dọn, phòng khi compile tay)
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.xdv
